@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.profile img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: center;
+	margin-bottom: 20px;
+}
+
+.profile h1 {
+	margin: 0;
+	font-size: 36px;
+	color: #333;
+}
+
+.profile h3 {
+	margin: 0;
+	font-size: 20px;
+	color: #777;
+}
+
+.button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	margin: 10px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 50px;
+	color: #fff;
+	font-size: 20px;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+}
+
+.instagram{
+    background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    }
+
+
+.facebook {
+	background-color: #3b5998;
+}
+
+.github {
+	background-color: #333;
+}
+
+.twitter {
+	background-color: #1da1f2;
+}
+
+.linkedin {
+	background-color: #0077b5;
+}
+
+.youtube {
+	background-color: #ff0000;
+}
+
+.email {
+	background-color: #333;
+}
+
+.btn i {
+	margin-right: 10px;
+	font-size: 24px;
+}
