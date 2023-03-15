@@ -3,6 +3,7 @@ body {
 	padding: 0;
 	background-color: #f5f5f5;
 	font-family: Arial, sans-serif;
+	background-image: linear-gradient(to bottom, #d1e4f1, #fff);
 }
 
 .container {
